@@ -1,0 +1,114 @@
+/*
+* Author: Thomas Canham
+* Assignment: WE3WE4.0 Mobile Web Applications, Digital Skills Academy
+* Date : 2016/05/12
+* Ref: n/a
+*/
+
+ .header {
+	 height:55px;
+ }
+ 
+ /*Front page styles*/
+ 
+ #frontHeader{
+	border:1px solid #3345FF;
+	text-align:center;
+	border-radius:.3em;	
+	background:#c8f8f9;
+ }
+ 
+ #frontPage{
+	padding:5px;
+	border: 1px solid #3345FF;
+	background:#0071bc;
+	margin-top:30px;
+ }
+ 
+ #logoHolder{
+	 text-align:right;
+	 padding-right:5%;
+ }
+ 
+ #frontpage img{
+	border:1px solid #3345FF;
+	border-radius:.3em;	
+	background:#c8f8f9;
+	width:100%;	
+ }
+ 
+ /* Side panel styles*/
+ 
+ .siteInfoPanel{
+	border:1px solid #3345FF;
+	border-radius:.3em;	
+	padding:10px;
+ }
+  
+/* Side panel button styles*/ 
+
+ #sideButton{
+	margin-top:5px; 
+	background:#c8f8f9;
+ }
+
+#sideButton:hover{
+	background:#e7f5fe;
+} 
+
+#panelCarList{
+	list-style:none;
+	padding-left:0;
+}
+
+#sidePanelClose {
+	text-decoration:none;
+}
+
+/*Page styles*/
+
+.pageHeader{
+	font-size:2.5em;
+}
+
+.carImgHolder img{
+	width:100%;
+}
+
+ #pageButton{
+	background:#c8f8f9;
+ }
+
+#pageButton:hover{
+	background:#e7f5fe;
+} 
+
+/*Footer styles*/
+
+#footer {
+	text-align:center;
+}
+
+/* Styles for when viewing on larger devices*/
+
+@media screen and (min-width: 640px) {
+   .carImgHolder {
+		width:65%;
+		float:right;
+		padding:10px;
+	}
+	
+	#headText{
+		width:50%;
+		margin:auto;	
+	}
+  
+	#logoHolder{
+		text-align:center;
+	}
+ 
+ .pageHeader{
+		font-size:2em !important;
+	}
+ 
+}
