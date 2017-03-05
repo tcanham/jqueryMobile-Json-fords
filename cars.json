@@ -1,0 +1,24 @@
+{
+	"cars": [{
+		"id": "1",
+		"model": "Granada"
+	}, {
+		"id": "2",
+		"model": "Capri"
+	},{
+		"id": "3",
+		"model": "Cortina"
+	},{
+		"id": "4",
+		"model": "Escort"
+	}, {
+		"id": "5",
+		"model": "Fiesta"
+	},{
+		"id": "6",
+		"model": "Sierra"
+	},{
+		"id": "7",
+		"model": "Orion"
+	}]
+}
